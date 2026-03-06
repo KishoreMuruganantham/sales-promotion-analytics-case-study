@@ -27,18 +27,20 @@ This repository contains:
 - A Kaggle-ready notebook
 - Both raw datasets used in the assignment
 - The original assignment PDFs
-- A documented workflow from data cleaning through modeling preparation
+- A documented workflow from data understanding through modeling preparation
 
 ## Project Scope
 
 This is not just a notebook with charts. The work is structured to answer the full assignment properly:
 
+- Include explicit data understanding and business framing
 - Inspect and validate the raw datasets
 - Resolve missing values, inconsistent categories, and merge risks
 - Reconcile weekly sales data with monthly promotion data
 - Analyze numeric, categorical, and time-based sales patterns
 - Engineer features suitable for predictive modeling
 - Prepare a leakage-aware modeling table with time-based validation
+- Export cleaned datasets for submission deliverables
 - Solve the separate hypothesis testing questions included in the second document
 
 ## Business Questions Addressed
@@ -79,13 +81,14 @@ Springboard - Stats & EDA - Level 4 - Assignment/
 
 The notebook is organized into these sections:
 
-1. Data understanding
-2. Data cleaning and preparation
-3. Exploratory data analysis
-4. Feature engineering
-5. Data preparation for modeling
-6. Business recommendations
-7. Hypothesis testing
+1. Executive summary and assignment framing
+2. Data understanding
+3. Data cleaning and preparation
+4. Exploratory data analysis
+5. Business insights and recommendations
+6. Feature engineering
+7. Data preparation for modeling
+8. Hypothesis testing
 
 ## Technical Approach
 
@@ -142,10 +145,24 @@ The notebook is designed to run in Kaggle with these input paths:
 
 When executed, the notebook writes:
 
+- `cleaned_sales_dataset.csv`
+- `cleaned_promo_demo_dataset.csv`
 - `cleaned_merged_sales_dataset.csv`
 - `final_modeling_dataset.csv`
 
 These match the cleaned-data and modeling-preparation deliverables required by the assignment.
+
+## Deliverable Coverage
+
+The notebook now covers the full assignment more explicitly:
+
+- data understanding discussion
+- cleaning decisions and merge justification
+- visual analysis tied to business questions
+- business insights and recommendations
+- feature engineering and modeling-readiness explanation
+- cleaned and modeling-ready dataset exports
+- hypothesis testing solutions from the second document
 
 ## Hypothesis Testing Coverage
 
