@@ -16,7 +16,7 @@
 
 # Sales and Promotion Analytics Case Study
 
-Retail analytics case study built for a Springboard statistics and EDA assignment. This project combines weekly store-level sales data with monthly promotion and demographic data to identify performance drivers, clean and align the raw sources, and prepare a forecasting-ready dataset for downstream modeling.
+Retail analytics case study built for a Springboard statistics and EDA assignment. This project combines weekly store-level sales data with monthly promotion and demographic data to identify performance drivers, clean and align the raw sources, and prepare a forecasting-ready dataset for downstream modeling
 
 ## Repository
 
